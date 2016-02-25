@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lists and tuples are both collections of data but a tuple contains different data types, whereas a list contains only one data type. You can't add elements to a tuple like you can to a list, but you can see whether en element exists in a tuple as you do in a list. A list will work as keys in dictionaries because you are able to modify them and add or remove them.
 
 ---
 
@@ -20,7 +20,13 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Sets are unordered and contain only unique elements. This is different to lists, which can contain multiples and are numbered. 
+
+A list is useful if the order of the elements is important, so finding where something is in relation to something else. Or perhaps how often it came up.
+
+If you just want to see if something is in a data set at all, or see whether something occurs in two datasets but the order or number of times it appears is not important, it is useful to use sets. You can look for overlap or difference between two sets or see whether something is present in a set.
+
+It is more efficient to find an element in a set than in a list because you're guaranteed that once you've found the element that's the only one there is, whereas in a list you have to search the whole list. 
 
 ---
 
@@ -28,7 +34,7 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> lambda allows you to create a function that isn't bound to a name (anonymous). - - unifinished - -
 
 ---
 
