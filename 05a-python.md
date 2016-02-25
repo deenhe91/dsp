@@ -22,11 +22,11 @@ How are Python lists and sets similar and different? Give examples of using both
 
 >> Sets are unordered and contain only unique elements. This is different to lists, which can contain multiples and are numbered. 
 
-A list is useful if the order of the elements is important, so finding where something is in relation to something else. Or perhaps how often it came up.
+>> A list is useful if the order of the elements is important, so finding where something is in relation to something else. Or perhaps how often it came up.
 
-If you just want to see if something is in a data set at all, or see whether something occurs in two datasets but the order or number of times it appears is not important, it is useful to use sets. You can look for overlap or difference between two sets or see whether something is present in a set.
+>> If you just want to see if something is in a data set at all, or see whether something occurs in two datasets but the order or number of times it appears is not important, it is useful to use sets. You can look for overlap or difference between two sets or see whether something is present in a set.
 
-It is more efficient to find an element in a set than in a list because you're guaranteed that once you've found the element that's the only one there is, whereas in a list you have to search the whole list. 
+>> It is more efficient to find an element in a set than in a list because you're guaranteed that once you've found the element that's the only one there is, whereas in a list you have to search the whole list. 
 
 ---
 
