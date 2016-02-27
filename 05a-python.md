@@ -50,6 +50,7 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >> List comprehensions allow you to concisely create a list where each element is the result of a calculation or operation. 
 >> For example:
+
 >>              list = [x**3 for x in range(10)]
         >>            [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
 
