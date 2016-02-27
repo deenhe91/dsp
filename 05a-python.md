@@ -48,7 +48,27 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions allow you to concisely create a list where each element is the result of a calculation or operation. 
+>> For example:
+>> list = [x**3 for x in range(10)]
+        [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
+
+>> This can also be achieved with map() and filter() functions. map() applies a function to all members of an iterable, but you have to have the function already or use lambda.
+>>def cube(x):  #pre defined function
+>>    return x**3
+
+>>cubes = map(cube, range(10))
+>>print(cubes)
+
+>>cubes = map(lambda x: x**3, range(10))
+>>print(cubes)
+
+>>filter() takes a function returning True or False and returns a list of the members which return True. So conditionals can be applied with filter(). For example, if you want to return only the cubes above a certain value, you can use filter() to do so.
+
+>>  - -  unfinished - -
+
+
+        
 
 ---
 
