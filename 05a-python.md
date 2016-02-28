@@ -67,7 +67,25 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >>filter() takes a function returning True or False and returns a list of the members which return True. So conditionals can be applied with filter(). For example, if you want to return only the cubes above a certain value, you can use filter() to do so.
 
->>  - -  unfinished - -
+>>      cubes = map(lambda x : x**3, range(10))
+>>      cubes_in_range = filter(lambda x : x < 100 and x > 350, cubes)
+>>      print(cubes_in_range)
+>>              [216, 343]
+
+>>Set comprehensions are similar to list comprehensions, but a set is created. {} are used instead of []. For example, where:
+
+>>      first_set = set('watermelons')
+>>returns       (['w','a','t','e','r','m','l','o','n','s'])
+>>      second_set = {x for x in 'watermelons' if x not 'water'}
+>>returns       (['m','l','o','n','s'])
+
+>>Dict comprehensions also use {}, and a : between the key and the value expressions. For example:
+
+>>      {x : x**3 for x in ranger(10)}
+>>              {0:0, 1:1, 2:8, 3:27, 4:64, 5:125, 6:216, 7:343, 8:512, 9:729}
+
+
+        
 
 
         
