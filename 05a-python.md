@@ -75,9 +75,9 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 >>Set comprehensions are similar to list comprehensions, but a set is created. {} are used instead of []. For example, where:
 
 >>      first_set = set('watermelons')
->>returns       (['w','a','t','e','r','m','l','o','n','s'])
+>>        (['w','a','t','e','r','m','l','o','n','s'])
 >>      second_set = {x for x in 'watermelons' if x not 'water'}
->>returns       (['m','l','o','n','s'])
+>>        (['m','l','o','n','s'])
 
 >>Dict comprehensions also use {}, and a : between the key and the value expressions. For example:
 
@@ -103,7 +103,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> 937 days
 
 b.  
 ```
@@ -111,7 +111,7 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> 513 days
 
 c.  
 ```
@@ -119,7 +119,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  (answer will be in number of days)
+>> 7850 days
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
