@@ -26,6 +26,11 @@ def donuts(count):
 
 
 def both_ends(s):
+    if len(s) > 1:
+        new_string = (s[:2] + s[-2:])
+    else: new_string = ()
+
+    return new_string
     
     """
     Given a string s, return a string made of the first 2 and the last
@@ -46,6 +51,11 @@ def both_ends(s):
 
 
 def fix_start(s):
+    new_s = s[1:].replace(s[0], "*")
+    newest_s = s[0] + new_s
+    return newest_s
+    
+
     """
     Given a string s, return a string where all occurences of its
     first char have been changed to '*', except do not change the
@@ -65,6 +75,9 @@ def fix_start(s):
 
 
 def mix_up(a, b):
+    c = (b[0:2]+a[2:] + ' ' + a[0:2]+b[2:])
+    return c
+
     """
     Given strings a and b, return a single string with a and b
     separated by a space '<a> <b>', except swap the first 2 chars of
@@ -83,6 +96,13 @@ def mix_up(a, b):
 
 
 def verbing(s):
+    if s.endswith('ing'):
+        t = s.replace('ing', 'ly')
+    elif len(s) > 2 : 
+        t = s + 'ing'
+    else: t = s
+    return t
+
     """
     Given a string, if its length is at least 3, add 'ing' to its end.
     Unless it already ends in 'ing', in which case add 'ly' instead.
@@ -100,6 +120,7 @@ def verbing(s):
 
 
 def not_bad(s):
+    
     """
     Given a string, find the first appearance of the substring 'not'
     and 'bad'. If the 'bad' follows the 'not', replace the whole
