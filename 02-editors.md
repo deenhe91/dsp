@@ -59,14 +59,13 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> I was using Sublime and have continued to do so for the initial python exercises. But I am learning Emacs so I can transition to that before the course starts. I am doing this because I like the idea of using the same editor for graphical and non-graphical environments. I was using Sublime before because it was recommended to me by web developers and I liked the look and feel of it.
-
+>> I plan to use Emacs if possible. I made my decision by reading forums online and getting the impression that Emacs was a better choice that vim. I am learning to use it now, and will see how it goes.
 --
 
 ###Q2. Graphical Editor
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> 
+>> I was using Sublime and have continued to do so for the initial python exercises. But in learning Emacs I hope to transition to that before the course starts. I'm doing this because I like the idea of using the same editor for graphical and non-graphical environments. I was using Sublime before because it was recommended to me by web developers and I liked the look and feel of it.
 
  
