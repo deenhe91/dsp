@@ -60,7 +60,8 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 What terminal editor will you use? How did you make your decision?
 
 >> I plan to use Emacs if possible. I made my decision by reading forums online and getting the impression that Emacs was a better choice that vim. I am learning to use it now, and will see how it goes.
---
+
+---
 
 ###Q2. Graphical Editor
 
