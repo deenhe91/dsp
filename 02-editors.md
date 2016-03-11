@@ -59,7 +59,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I was using Sublime and have continued to do so for the initial python exercises. But I am learning Emacs so I can transition to that before the course starts. I am doing this because I like the idea of using the same editor for graphical and non-graphical environments. I was using Sublime before because it was recommended to me by web developers and I liked the look and feel of it.
 
 --
 
@@ -67,6 +67,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> 
 
  
