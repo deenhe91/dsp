@@ -46,7 +46,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > 
+`ls -t` - newest first  
+`ls -d` - display only directories  
+`ls -G` - colourised output
+`ls -r` - displays in reverse order  
+`ls -R` -displays subdirectories as well
 
 ---
 
