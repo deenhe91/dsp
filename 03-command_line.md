@@ -58,7 +58,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`xargs` changes standard input to arguments for the command you specify. 
+this means that if you pipe standard out put into a command that requires arguments, like `echo` using xargs
+ 
 
  
 
