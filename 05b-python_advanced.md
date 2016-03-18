@@ -19,12 +19,21 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 ####Q1. Find how many different degrees there are, and their frequencies: Ex:  PhD, ScD, MD, MPH, BSEd, MS, JD, etc.
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> `Ph.D|PhD count: 31`  
+>> `MD|M.D count: 1`  
+>> `Sc.D|ScD count: 6`  
+>> `MS|M.S count: 2`  
+>> `MA count: 1`  
+>> `MPH count: 2`  
+>> `JD count: 1`  
+>> `B.S|BS count: 1`  
 
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> `Associate Professor of Biostatistics count:12` 
+>> `Professor of Biostatistics count:36`  
+>> `Assistant Professor of Biostatistics count:11`  
 
 
 ####Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
