@@ -1,5 +1,6 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
+```python
 import nsfg
 import thinkstats2 as ts
 import thinkplot
@@ -71,3 +72,5 @@ def CohenEffectSize(sample1, sample2):
     d = diff/math.sqrt(pooled_var)
     print("Cohen's D: " + str(d))
     return d
+
+```
