@@ -1,6 +1,7 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
->> import chap01soln
+```python
+import chap01soln
 resp = chap01soln.ReadFemResp()
 
 num_pmf = thinkstats2.Pmf(resp.numkdhh)
@@ -23,3 +24,7 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs([num_pmf, biased_num])
 thinkplot.Show(xlabel = 'no. of children', ylabel = 'PMF')
 
+print('Means')
+print('non-biased: ' + str(num_pmf.Mean()))
+print('biased: ' + str(biased_num.Mean()))
+```
